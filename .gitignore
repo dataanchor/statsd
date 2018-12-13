@@ -3,3 +3,9 @@ node_modules
 # WebStorm / IntelliJ IDEA project files
 .idea
 *.iml
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+config.js
